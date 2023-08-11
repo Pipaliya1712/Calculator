@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAL</title>
+    <style>
+        .button {
+            border-style: hidden;
+            background-color: black;
+            color: white;
+
+        }
+
+        .button:hover {
+            background-color: rgb(43, 42, 42);
+            border-radius: 100px;
+        }
+
+        .button_of_diff {
+            color: rgb(255, 119, 0);
+
+        }
+
+        .button_of_diff:hover {
+            background-color: rgb(43, 42, 42);
+            border-radius: 100px;
+        }
+
+        .padding {
+            padding: 0px 3px 0px 3px;
+        }
+
+        .text {
+            border-style: hidden;
+            background-color: black;
+            color: white;
+            width: 92px;
+            border-radius: 3px;
+        }
+
+        .text:hover {
+            border-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:black; width: 96px; margin: 0px 0px 0px 0px; border-radius: 3px;">
+        <div>
+            <input class="text" type="text">
+        </div>
+        <div style="padding: 1px 10px; ">
+            <button class="button button_of_diff padding">C</button>
+            <button class="button button_of_diff padding">D</button>
+            <button class="button button_of_diff padding">%</button>
+            <button class="button button_of_diff padding">/</button>
+        </div>
+        <div style="padding: 1px 10px;">
+            <button class="button" style="padding: 0px 0px 0px 5px;">7</button>
+            <button class="button" style="padding: 0px 0px 0px 8px">8</button>
+            <button class="button" style="padding: 0px 0px 0px 8px;">9</button>
+            <button class="button button_of_diff">*</button>
+        </div>
+        <div style="padding: 1px 10px;">
+            <button class="button" style="padding: 0px 0px 0px 5px;">4</button>
+            <button class="button" style="padding: 0px 0px 0px 8px">5</button>
+            <button class="button" style="padding: 0px 0px 0px 8px;">6</button>
+            <button class="button button_of_diff" style="padding: 0px 0px 0px 7px;">-</button>
+        </div>
+        <div style="padding: 1px 10px;">
+            <button class="button" style="padding: 0px 0px 0px 5px;">1</button>
+            <button class="button" style="padding: 0px 0px 0px 8px">2</button>
+            <button class="button" style="padding: 0px 0px 0px 8px;">3</button>
+            <button class="button button_of_diff">+</button>
+        </div>
+        <div style="padding: 1px 10px;">
+            <button style="padding: 1px 16px;" class="button">0</button>
+            <button class="button" style="padding: 0px 2px 0px 3px;">.</button>
+            <button class="button"
+                style="border-radius:200px; background-color: rgb(255, 119, 0); color: white; padding: 0px 4px; ">=</button>
+        </div>
+    </div><script src="script.js"></script>
+</body>
+
+</html>
